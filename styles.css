@@ -147,3 +147,15 @@ section { padding: 60px 0; scroll-margin-top: 80px; }
 .hero h1 { font-size: 52px; margin-bottom: 15px; }
 .hero p { color: var(--text-soft); max-width: 520px; margin: 0 auto 30px; padding: 0 var(--pad); }
 .hero-btns { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+
+
+.about { max-width: var(--maxw); margin: 0 auto; padding: 0 var(--pad); text-align: center; }
+.about p { color: var(--text-soft); max-width: 720px; margin: 0 auto 15px; }
+.stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  margin-top: 40px;
+}
+.stats strong { display: block; font-size: 30px; color: var(--green); }
+.stats span { color: var(--muted); font-size: 14px; }
